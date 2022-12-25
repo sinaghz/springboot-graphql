@@ -1,13 +1,13 @@
-package com.sinaghz.demo;
+package org.psp.springbootgraphql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class SpringBootGraphqlApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(SpringBootGraphqlApplication.class, args);
     }
 
 }

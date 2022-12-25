@@ -1,11 +1,11 @@
-package com.sinaghz.demo.queryresolver;
+package org.psp.springbootgraphql.queryresolver;
 
-import com.sinaghz.demo.enums.ListOrder;
-import com.sinaghz.demo.model.Author;
-import com.sinaghz.demo.model.Book;
-import com.sinaghz.demo.repository.AuthorRepository;
-import com.sinaghz.demo.repository.BookRepository;
-import com.sinaghz.demo.types.BookFilter;
+import org.psp.springbootgraphql.enums.ListOrder;
+import org.psp.springbootgraphql.model.Author;
+import org.psp.springbootgraphql.model.Book;
+import org.psp.springbootgraphql.repository.AuthorRepository;
+import org.psp.springbootgraphql.repository.BookRepository;
+import org.psp.springbootgraphql.types.BookFilter;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.graphql.data.method.annotation.SchemaMapping;

@@ -1,4 +1,4 @@
-package com.sinaghz.demo.enums;
+package org.psp.springbootgraphql.enums;
 
 public enum ListOrder {
     ASC,

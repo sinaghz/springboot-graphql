@@ -1,4 +1,4 @@
-package com.sinaghz.demo.types;
+package org.psp.springbootgraphql.types;
 
 public class BookInput {
     String name;

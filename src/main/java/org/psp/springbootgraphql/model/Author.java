@@ -1,4 +1,4 @@
-package com.sinaghz.demo.model;
+package org.psp.springbootgraphql.model;
 
 
 import javax.persistence.*;

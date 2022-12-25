@@ -1,4 +1,4 @@
-package com.sinaghz.demo.types;
+package org.psp.springbootgraphql.types;
 
 public class DeleteBookInput {
     private Integer Id;

@@ -1,6 +1,6 @@
-package com.sinaghz.demo.repository;
+package org.psp.springbootgraphql.repository;
 
-import com.sinaghz.demo.model.Book;
+import org.psp.springbootgraphql.model.Book;
 import org.springframework.data.repository.CrudRepository;
 
 public interface BookRepository extends CrudRepository<Book, Integer> {

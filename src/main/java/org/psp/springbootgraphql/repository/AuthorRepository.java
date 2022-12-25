@@ -1,6 +1,6 @@
-package com.sinaghz.demo.repository;
+package org.psp.springbootgraphql.repository;
 
-import com.sinaghz.demo.model.Author;
+import org.psp.springbootgraphql.model.Author;
 import org.springframework.data.repository.CrudRepository;
 
 public interface AuthorRepository extends CrudRepository<Author, Integer> {

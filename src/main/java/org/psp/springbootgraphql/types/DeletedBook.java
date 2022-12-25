@@ -1,14 +1,11 @@
-package com.sinaghz.demo.types;
+package org.psp.springbootgraphql.types;
 
-public class NewBook {
+public class DeletedBook {
     private Integer id;
     private String name;
     private String pageCount;
 
-    public NewBook() {
-    }
-
-    public NewBook(Integer id, String name, String pageCount) {
+    public DeletedBook(Integer id, String name, String pageCount) {
         this.id = id;
         this.name = name;
         this.pageCount = pageCount;

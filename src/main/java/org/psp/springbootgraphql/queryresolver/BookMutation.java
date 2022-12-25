@@ -1,14 +1,13 @@
-package com.sinaghz.demo.queryresolver;
+package org.psp.springbootgraphql.queryresolver;
 
-import com.sinaghz.demo.model.Book;
-import com.sinaghz.demo.repository.BookRepository;
-import com.sinaghz.demo.types.BookInput;
-import com.sinaghz.demo.types.DeleteBookInput;
-import com.sinaghz.demo.types.DeletedBook;
-import com.sinaghz.demo.types.NewBook;
+import org.psp.springbootgraphql.model.Book;
+import org.psp.springbootgraphql.repository.BookRepository;
+import org.psp.springbootgraphql.types.BookInput;
+import org.psp.springbootgraphql.types.DeleteBookInput;
+import org.psp.springbootgraphql.types.DeletedBook;
+import org.psp.springbootgraphql.types.NewBook;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 
 import java.util.Optional;
